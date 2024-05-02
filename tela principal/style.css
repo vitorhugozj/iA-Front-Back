@@ -1,0 +1,71 @@
+body {
+    font-family: Nunito;
+    background-image: url(../img/jake.gif);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position-y: center
+}
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.square-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: 32px;
+}
+
+.square {
+    width: 180px;
+    height: 180px;
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 200px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+form {
+    display: flex;
+    width: 100%;
+    max-width: 360px;
+}
+
+input[type="text"] {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    flex-grow: 1;
+    padding: 20px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    
+    background-color:transparent;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF1493;
+}
